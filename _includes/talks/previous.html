@@ -1,0 +1,14 @@
+<div class="talk" style="margin-bottom: 40px">
+        <div class="heading">
+            <h5>{{ include.content.title }}</h5>
+            
+            <span style="font-style: italic">
+                
+            </span>
+        </div>
+        <div class="content">
+            {% for event in include.content.occurances %}
+              {{ event.date }} at {{ event.location }} <br/>
+            {% endfor %}
+        </div>
+    </div>

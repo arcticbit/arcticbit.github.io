@@ -5,6 +5,7 @@
     <div class="container" style="margin-top: 20px">
         <div class="row">
             <div class="col s6" style="font-size: 1.8em">
+                <img src="{{ site.meta.logo }}" style="height: .9em;margin-right: 10px" />
                 {{ page.title }}
             </div>
             <div class="col s6">
@@ -12,6 +13,7 @@
             </div>
         </div>
     </div>
+    {{ content }}
     {% include footer.html %}
 </body>
 </html>

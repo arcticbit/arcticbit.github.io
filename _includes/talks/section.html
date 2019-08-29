@@ -1,0 +1,25 @@
+<div class="upcoming">
+    <h4>
+        Upcoming talks
+    </h4>
+    {% include divider.html %}
+    <div class="talks">
+        
+        {% for talk in page.talks.upcoming %}
+          {% include talks/upcoming.html content=talk %}
+        {% endfor %}
+        
+    </div>
+</div>
+<div class="previous" style="margin-top: 80px">
+    <h4>
+        Past talks
+    </h4>
+    {% include divider.html %}
+    <div class="talks">
+        <!-- .talk>.heading>h5+small^.content>p -->
+        {% for talk in page.talks.past %}
+          {% include talks/previous.html content=talk %}
+        {% endfor %}
+    </div>
+</div>
