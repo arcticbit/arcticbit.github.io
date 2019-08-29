@@ -17,7 +17,9 @@
     </h4>
     {% include divider.html %}
     <div class="talks">
-        <!-- .talk>.heading>h5+small^.content>p -->
+        {%- comment -%}
+        .talk>.heading>h5+small^.content>p
+        {%- endcomment -%}
         {% for talk in page.talks.past %}
           {% include talks/previous.html content=talk %}
         {% endfor %}
