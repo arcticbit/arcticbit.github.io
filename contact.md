@@ -25,10 +25,10 @@ permalink: /contact
                 </div>
                 <div class="input-field">
                     <input
-                        id="_email"
-                        name="_email"
+                        id="_replyto"
+                        name="_replyto"
                         type="email"
-                    ><label for="_email">Email</label>
+                    ><label for="_replyto">Email</label>
                 </div>
                 <div class="input-field">
                     <textarea
