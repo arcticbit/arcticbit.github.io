@@ -1,0 +1,60 @@
+<style>
+    a {
+        color: black;
+    }
+
+    .menu {
+        list-style-type: none;
+        text-align: right;
+        margin: 0;
+    }
+
+    .menu li {
+        margin: 0;
+        padding: 0 20px;
+        text-transform: uppercase;
+        display: inline-block;
+    }
+
+    .menu .get-in-touch {
+        border: 2px solid black;
+        padding: 10px;
+    }
+
+    .menu .get-in-touch:hover {
+        background: black;
+        color: white;
+        transition: all .6s;
+    }
+
+    .menu .get-in-touch:hover a {
+        color: white !important;
+    }
+</style>
+<ul class="menu">
+    <li>
+        <a href="/">
+            Home
+        </a>
+    </li>
+    <li>
+        <a href="/articles">
+            Articles
+        </a>
+    </li>
+    {% comment %}<li>
+        <a href="/services">
+            Services
+        </a>
+    </li> {% endcomment %}
+    <li>
+        <a href="/schedule">
+            Schedule
+        </a>
+    </li>
+    <li class="get-in-touch">
+        <a href="/contact">
+            Get in touch
+        </a>
+    </li>
+</ul>

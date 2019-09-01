@@ -1,6 +1,6 @@
 # Metadata
 # ---
-title: arctic bit
+title: Arctic Bit
 description: arctic bit
 baseurl: ""
 url: "https://wwww.arcticbit.se"
@@ -12,6 +12,13 @@ meta:
 twitter_username: '0x12b'
 github_username:  simskij
 email: simme@arcticbit.se
+excerpt_separator: <!--more-->
+
+defaults:
+  - scope:
+      path: "articles/*"
+    values:
+      splash: "/assets/mountains-faded.png"
 
 # Config
 # ---
