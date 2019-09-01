@@ -18,10 +18,10 @@ permalink: /contact
             <form action="https://formspree.io/hello@arcticbit.se" method="POST">
                 <div class="input-field">
                     <input
-                        id="_fullname"
-                        name="_fullname"
+                        id="name"
+                        name="name"
                         type="text"
-                    ><label for="_fullname">Name</label>
+                    ><label for="name">Name</label>
                 </div>
                 <div class="input-field">
                     <input
