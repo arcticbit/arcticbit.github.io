@@ -1,5 +1,6 @@
 ---
 layout: default
+comments: true
 ---
 
 <div style="background: url('{{ page.splash }}');height:500px;max-height: 400px;background-size: cover">
@@ -19,6 +20,11 @@ layout: default
     <div class="row">
         <div class="col offset-s2 s8 post-content">
             {{ content }}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col offset-s2 s8">
+        {% include disqus.html %}
         </div>
     </div>
 </div>
