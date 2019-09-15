@@ -6,14 +6,24 @@ permalink: /schedule
 talks:
     upcoming:
         - 
-            title: Everyone is talking about DevOps
-            date: 10 September 2019
-            location: Day of the programmer, Jönköping
+            title: DevOps and Go, a love story
+            date: 2 October 2019
+            location: Go Meetup @ Einride, Stockholm
             description: |
-                Everyone is talking about DevOps! But what is it? Jenkins – is that DevOps?
-                How about Terraform? During this session we’ll talk about the culture, the
-                importance of automation, the three ways of DevOps and why we should care.
+                Much of the tooling used for infrastructure automation still consists of page after page of shell scripts.
+                Our operations tools deserve the same level of care, quality and portability as the software we deliver!
+
+                What if, instead of building our ops tooling as scripts, we were to build them as services? With great golang
+                features like cross-platform (and architecture) compilation, static linking, docker client api's and more
+                - nothing is holding us back.
+
+                During this session, we'll be looking at some aspects of why golang is so awesome for doing devops work.
     past:
+        -   
+            title: Everyone is talking about DevOps
+            occurances:
+                - date: 10 September 2019
+                  location: Day of the Programmer, Jönköping
         -
             title: "DevOps <3 Go"
             occurances:

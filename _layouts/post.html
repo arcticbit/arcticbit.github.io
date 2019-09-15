@@ -3,12 +3,12 @@ layout: default
 comments: true
 ---
 
-<div style="background: url('{{ page.splash }}');height:500px;max-height: 400px;background-size: cover">
+<div style="background: url('{{ page.splash }}');height:500px;max-height: 400px;background-size: cover; background-position: center center;">
 </div>
 
 <div class="container">
     <div class="row">
-        <div class="col s12 center-align" style="font-size: 3em;padding-top: 150px">
+        <div class="col s12 center-align" style="font-size: 3em;padding-top: 40px">
             {{ page.title }}
             <span style="font-size: .5em; display: block;font-style: italic">
                 {{ page.subtitle}}
@@ -18,12 +18,12 @@ comments: true
 </div>
 <div class="container">
     <div class="row">
-        <div class="col offset-s2 s8 post-content">
+        <div class="col s12 post-content">
             {{ content }}
         </div>
     </div>
     <div class="row">
-        <div class="col offset-s2 s8">
+        <div class="col s12">
         {% include disqus.html %}
         </div>
     </div>

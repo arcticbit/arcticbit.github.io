@@ -84,3 +84,41 @@
 .post-content img {
     max-width: 100%;
 }
+
+footer .container .row {
+    color: #333!important;
+}
+
+.social .fab {
+    margin-left: 10px;
+    color: #333;
+    font-size: 1.6em;
+    &.fa-facebook-f:hover {
+        color: rgb(66, 103, 178);
+        padding: 4px 8px;
+    }
+}
+
+.cta {
+    border: 2px solid black;
+    padding: 10px;
+
+    &:hover {
+        background: black;
+        color: white;
+        transition: all .6s;
+        a {
+            color: white !important;
+        }
+    }
+}
+
+.post-content {
+    font-size: 1.2em;
+}
+
+.post-content blockquote {
+    font-size: 1.4em;
+    font-weight: lighter;
+    color: #444;
+}
