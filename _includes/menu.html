@@ -4,12 +4,10 @@
     }
 
     .menu {
-        list-style-type: none;
-        text-align: right;
         margin: 0;
     }
 
-    .menu li {
+    .menu div {
         margin: 0;
         padding: 0 20px;
         text-transform: uppercase;
@@ -31,30 +29,25 @@
         color: white !important;
     }
 </style>
-<ul class="menu">
-    <li>
-        <a href="/">
+<div class="menu">
+    <a href="/">
+        <div class="sm12">
             Home
-        </a>
-    </li>
-    <li>
-        <a href="/articles">
-            Articles
-        </a>
-    </li>
-    {% comment %}<li>
-        <a href="/services">
-            Services
-        </a>
-    </li> {% endcomment %}
-    <li>
-        <a href="/schedule">
+        </div>
+    </a>
+    <a href="/articles">
+        <div>
+        Articles
+        </div>
+    </a>
+    <a href="/schedule">
+        <div>
             Schedule
-        </a>
-    </li>
-    <li class="get-in-touch">
-        <a href="/contact">
+        </div>
+    </a>
+    <a href="/contact">
+        <div class="get-in-touch">
             Get in touch
-        </a>
-    </li>
-</ul>
+        </div>
+    </a>
+</div>
