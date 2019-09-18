@@ -60,7 +60,7 @@ talks:
                   location: HiQ Smarter, Linköping
 ---
 
-<div class="splash-image" style="background: url('/assets/raising-hands.jpg'); height: 400px;background-position: center center;filter: saturate(30%)">
+<div class="splash-image" style="background-image: url('/assets/raising-hands.jpg');">
 </div>
 <div class="container" style="margin-top: 80px">
     <div class="row">
