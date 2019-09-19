@@ -6,18 +6,19 @@ permalink: /schedule
 talks:
     upcoming:
         - 
+            title: A change in mindset
+            date: 24 October 2019
+            location: Serverless Days, Stockholm
+            description: |
+                When you start going serverless, it’s easy to get excited and just go for it.
+                To create meaningful services however you need to think carefully about your design and what you want to achieve.
+        - 
             title: DevOps and Go, a love story
             date: 2 October 2019
             location: Go Meetup @ Einride, Stockholm
             description: |
                 Much of the tooling used for infrastructure automation still consists of page after page of shell scripts.
                 Our operations tools deserve the same level of care, quality and portability as the software we deliver!
-
-                What if, instead of building our ops tooling as scripts, we were to build them as services? With great golang
-                features like cross-platform (and architecture) compilation, static linking, docker client api's and more
-                - nothing is holding us back.
-
-                During this session, we'll be looking at some aspects of why golang is so awesome for doing devops work.
     past:
         -   
             title: Everyone is talking about DevOps
@@ -59,10 +60,13 @@ talks:
                 - date: 23 November 2016
                   location: HiQ Smarter, Linköping
 ---
-
-<div class="splash-image" style="background-image: url('/assets/raising-hands.jpg');">
+<div class="container">
+    <div class="row">
+        <div class="splash-image" style="background-image: url('/assets/raising-hands.jpg');">
+        </div>
+    </div>
 </div>
-<div class="container" style="margin-top: 80px">
+<div class="container">
     <div class="row">
         <div class="col s12">
             {% include talks/section.html %}

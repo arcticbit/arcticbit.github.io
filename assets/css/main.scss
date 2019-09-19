@@ -50,13 +50,14 @@
 }
 
 .splash-image {
-    width: 100%;
+    width: calc(100% - 20px);
     height: 400px;
     background: url('/assets/mountains-faded.png');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     filter: saturate(30%);
+    margin: 0 0 0 10px;
 }
 
 .post-content {
@@ -95,9 +96,17 @@ footer .container .row {
     margin-left: 10px;
     color: #333;
     font-size: 1.6em;
-    &.fa-facebook-f:hover {
+    &.fa-facebook-f:hover,
+    &.fa-linkedin:hover {
         color: rgb(66, 103, 178);
-        padding: 4px 8px;
+    }
+
+    &.fa-github:hover,
+    &.fa-dev:hover {
+        color: black;
+    }
+    &.fa-dribbble:hover {
+        color: #fb00ff;
     }
 }
 

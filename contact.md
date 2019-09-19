@@ -4,12 +4,12 @@ title: Arctic Bit
 permalink: /contact
 ---
 
-<div class="container" style="margin: 25vh auto 25vh auto;">
+<div class="container" style="margin: 10vh auto 10vh auto;">
     <div class="row">
-        <div class="col s8 offset-s2">
-        <h1>
+        <div class="col s12">
+        <h3>
             Don't be a stranger
-        </h1>
+        </h3>
         <p style="text-align:justify">
             Do you have any interesting projects coming up? Would you like
             us to perform a workshop, a talk or other activity in your organization?
@@ -38,7 +38,7 @@ permalink: /contact
                     ></textarea>
                     <label for="_content">Content</label>
                 </div>
-                <button class="btn waves-effect waves-light" type="submit" name="action">
+                <button class="cta" style="cursor: pointer" type="submit" name="action">
                     Submit
                 </button>
             </form>
