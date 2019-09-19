@@ -8,7 +8,7 @@ permalink: /articles
 <div class="container" style="min-height: 80vh">
     <div class="row" style="margin: 0 -10px;">
     {% for post in site.posts %}
-        <div class="col s6" style="padding: 0 20px">
+        <div class="col s12 m6" style="padding: 0 20px">
             <div style="background-image: url('{{ post.splash }}'); background-position: center center; background-size: cover; height: 300px;margin-bottom: 30px">
             </div>        
                     <h4 style="margin: 0;padding:0;">
