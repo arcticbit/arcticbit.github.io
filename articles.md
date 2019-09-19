@@ -18,7 +18,7 @@ permalink: /articles
                     <article style="text-align: justify; margin: 32px 0;height: 240px">
                         {{ post.excerpt}}
                     </article>
-                    <div class="right-align">
+                    <div class="right-align" style="margin-bottom: 20px">
                         <a class="cta" href="{{post.url}}">Read more</a>
                     </div>
         </div>
