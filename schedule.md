@@ -12,13 +12,6 @@ talks:
             description: |
                 When you start going serverless, it’s easy to get excited and just go for it.
                 To create meaningful services however you need to think carefully about your design and what you want to achieve.
-        - 
-            title: DevOps and Go, a love story
-            date: 2 October 2019
-            location: Go Meetup @ Einride, Stockholm
-            description: |
-                Much of the tooling used for infrastructure automation still consists of page after page of shell scripts.
-                Our operations tools deserve the same level of care, quality and portability as the software we deliver!
     past:
         -   
             title: Everyone is talking about DevOps
@@ -26,10 +19,12 @@ talks:
                 - date: 10 September 2019
                   location: Day of the Programmer, Jönköping
         -
-            title: "DevOps <3 Go"
+            title: "DevOps and Go, a love story"
             occurances:
                 - date: 5 July 2019
                   location: GoWayFest 3.0, Minsk
+                - date: 2 October 2019
+                  location: Go Meetup @ Einride, Stockholm
         -   
             title: Diversity Rocks! - on diversity in tech
             occurances:
